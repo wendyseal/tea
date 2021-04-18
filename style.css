@@ -1,0 +1,88 @@
+a:link{
+        /* //設定還沒有瀏覽過的連結 */
+        text-decoration:none;
+        font-weight: bold;
+        color: rgb(2, 23, 41)
+        }
+a:visited {
+        /* //設定已經瀏覽過的連結 */
+        font-weight: bold;
+        color: rgb(2, 23, 41);
+        }
+a:hover {
+        /* //設定滑鼠移經的連結 */
+        text-decoration:underline;
+        font-weight: bold;
+        color: rgb(30, 88, 139);
+        }
+a:active {
+        /* //設定正在點選的連結 */
+        text-decoration:none;
+        font-weight: bold;
+        color: rgb(30, 88, 139);
+        }
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightslategrey;
+    color: linen;
+    padding: 20px
+
+}
+.discription{
+    width: 80%;
+    margin:0px auto;
+    font-size: 20px;
+    text-align: center;
+    border:peru 3px dashed;
+    border-radius: 5%;
+    background-color: rgb(231, 227, 224);
+    color: rgb(46, 44, 43);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.main{
+    background-color: rgb(240, 250, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 18%;  
+    background-color: rgba(86, 165, 202, 0.466);
+    margin: 10px
+}
+.boximg{
+    width: 90%; 
+    margin:1px
+}
+
+.boxcontent{
+    padding:5px;
+    font-weight:blod;
+    text-align:center;
+    background-color: rgb(217, 230, 241);
+    color: rgb(4, 38, 68)
+}
+
+.boxtitle{
+    text-align:center;
+    background-color: rgb(30, 88, 139);
+    color: aliceblue
+}
+
+@media (max-width:1250px) {
+    .box{
+        width:45%;
+    } 
+}
+
+@media (max-width:500px) {
+    .box{
+        width:95%;
+    }
+}
