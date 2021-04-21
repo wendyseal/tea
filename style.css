@@ -49,6 +49,7 @@ a:active {
     background-color: rgb(240, 250, 255);
     display: flex;
     justify-content: center;
+    flex-wrap:wrap
 }
 
 .box{
